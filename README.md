@@ -1,5 +1,6 @@
 # Trader-Sentiment-Analysis
 📊 Trader Performance vs Market Sentiment
+
 📌 Objective
 
 The goal of this project is to analyze how market sentiment (Fear vs Greed) affects trader performance and behavior. The analysis is based on trading data and sentiment data to understand patterns and suggest better trading strategies.
@@ -19,28 +20,42 @@ pip install pandas matplotlib seaborn
 ▶️ How to Run
 Download or clone the project:
 git clone <your-repo-link>
+
 Navigate to the project folder:
 cd <project-folder>
+
 Open Jupyter Notebook:
 jupyter notebook
+
 Open the notebook file:
 Trader Performance vs Market Sentiment.ipynb
+
 Run all cells step by step.
 
 📊 Key Features
 Data cleaning and preprocessing
+
 Feature engineering (PnL, win rate, trade frequency, leverage proxy)
+
 Sentiment-based analysis (Fear vs Greed)
+
 Visualization of performance and behavior
+
 Trader segmentation (leverage, frequency, consistency)
+
 Strategy recommendations
 
 📈 Output
 The notebook generates:
+
 Charts comparing PnL across sentiment
+
 Trade frequency analysis
+
 Leverage impact visualization
+
 Long-short ratio analysis
+
 Summary tables for insights
 
 📝 Summary
