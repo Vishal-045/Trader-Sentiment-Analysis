@@ -12,6 +12,8 @@ historical_data.csv → Trader data
 
 fear_greed_index.csv → Market sentiment data
 
+app.py → Streamlit dashboard for interactive analysis
+
 README.md → Project summary
 
 ⚙️ Setup
@@ -20,23 +22,28 @@ Make sure you have Python installed (Python 3.8+ recommended).
 
 Install required libraries:
 
-pip install pandas matplotlib seaborn
+pip install pandas matplotlib seaborn streamlit
 
 ▶️ How to Run
+🔹 Run Notebook
 
-Download or clone the project:
-git clone <your-repo-link>
+Download or clone the repository
 
-Navigate to the project folder:
-cd <project-folder>
+Navigate to the project folder
 
 Open Jupyter Notebook:
+
 jupyter notebook
 
-Open the notebook file:
+Open and run:
+
 Trader Performance vs Market Sentiment.ipynb
 
-Run all cells step by step.
+🔹 Run Streamlit Dashboard
+
+Run the following command: streamlit run app.py
+
+👉 This will open an interactive dashboard in your browser.
 
 📊 Key Features
 
@@ -50,13 +57,15 @@ Visualization of performance and behavior
 
 Trader segmentation (leverage, frequency, consistency)
 
+Interactive dashboard using Streamlit
+
 Strategy recommendations
 
 📈 Output
 
-The notebook generates:
+The project provides:
 
-Charts comparing PnL across sentiment
+PnL comparison across sentiment
 
 Trade frequency analysis
 
@@ -64,8 +73,10 @@ Leverage impact visualization
 
 Long-short ratio analysis
 
-Summary tables for insights
+Interactive dashboard for exploring results
+
+Summary tables and insights
 
 📝 Summary
 
-The analysis shows that trader performance and behavior vary significantly with market sentiment. Fear leads to higher profits but also higher risk, while Greed results in more stable performance. Based on this, adaptive trading strategies can improve results.
+From the analysis, it is clear that trader performance and behavior change based on market sentiment. During Fear, traders tend to earn higher profits but also face higher risk. During Greed, performance is more stable and controlled. The Streamlit dashboard helps in exploring these patterns interactively, making it easier to understand and analyze trader behavior.
