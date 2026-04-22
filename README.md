@@ -7,17 +7,23 @@ The goal of this project is to analyze how market sentiment (Fear vs Greed) affe
 
 📂 Project Structure
 Trader Performance vs Market Sentiment.ipynb → Main notebook with full analysis
+
 historical_data.csv → Trader data
+
 fear_greed_index.csv → Market sentiment data
+
 README.md → Project summary
 
 ⚙️ Setup
+
 Make sure you have Python installed (Python 3.8+ recommended).
 
 Install required libraries:
+
 pip install pandas matplotlib seaborn
 
 ▶️ How to Run
+
 Download or clone the project:
 git clone <your-repo-link>
 
@@ -33,6 +39,7 @@ Trader Performance vs Market Sentiment.ipynb
 Run all cells step by step.
 
 📊 Key Features
+
 Data cleaning and preprocessing
 
 Feature engineering (PnL, win rate, trade frequency, leverage proxy)
@@ -46,6 +53,7 @@ Trader segmentation (leverage, frequency, consistency)
 Strategy recommendations
 
 📈 Output
+
 The notebook generates:
 
 Charts comparing PnL across sentiment
@@ -59,4 +67,5 @@ Long-short ratio analysis
 Summary tables for insights
 
 📝 Summary
+
 The analysis shows that trader performance and behavior vary significantly with market sentiment. Fear leads to higher profits but also higher risk, while Greed results in more stable performance. Based on this, adaptive trading strategies can improve results.
